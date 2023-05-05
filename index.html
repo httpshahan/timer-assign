@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Timer</h1>
+	<div class="input-wrapper">
+		<label for="hours-input">Hours:</label>
+		<input type="number" id="hours-input" min="0" max="24" value="0">
+		
+		<label for="minutes-input">Minutes:</label>
+		<input type="number" id="minutes-input" min="0" max="59" value="0">
+		
+		<label for="seconds-input">Seconds:</label>
+		<input type="number" id="seconds-input" min="0" max="59" value="0">
+	</div>
+	
+	<div class="timer-wrapper">
+		<div class="timer">
+			<span id="hours">00</span>:
+			<span id="minutes">00</span>:
+			<span id="seconds">00</span>
+		</div>
+		<div class="buttons">
+			<button id="start-button">Start</button>
+			<button id="reset-button">Reset</button>
+		</div>
+	</div>
+
+	<audio id="alarm" src="alarm.mp3"></audio>
+</body>
+<script src="script.js"></script>
+</html>
