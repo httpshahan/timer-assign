@@ -8,6 +8,11 @@ This is a simple timer that allows users to input a duration, start the timer, a
 - CSS
 - JavaScript
 
+## Demo
+
+View the demo here: https://httpshahan.github.io/timer-assign/
+
+
 
 ## Credits
 
